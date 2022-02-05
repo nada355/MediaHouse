@@ -1,4 +1,4 @@
-<footer class="footer footer-dark" id="footer">
+<footer class="footer footer-light" id="footer" style="color:black;">
     <div class="footer-middle" >
         <div class="container">
             <div class="row">
@@ -79,7 +79,7 @@
         </div><!-- End .container -->
     </div><!-- End .footer-middle -->
 
-    <div class="footer-bottom" style="">
+    <div class="footer-bottom" style="background-color:black;">
         <div class="container">
             <p class="footer-copyright">Copyright © 2022 Media House. All Rights Reserved.</p><!-- End .footer-copyright -->
             <figure class="footer-payments">
