@@ -1,0 +1,77 @@
+ .price-field p{
+    font-size: 22px;
+    line-height: 18px;
+    color: #222222;
+    font-weight: 600;
+}
+ .quantity .quantity-input{
+    display: inline-block;
+    border: 1px solid #e6e6e6;
+    width: 100%;
+    max-width: 157px;
+}
+ .quantity .quantity-input input[type=number],
+ .quantity .quantity-input input[type=text]{
+    max-width: 71px;
+    float: right;
+    border: none;
+    outline: none;
+    height: 37px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+    text-align: right;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+ .quantity .quantity-input .btn{
+    display: inline-block;
+    float: right;
+    width: 28px;
+    height: 28px;
+    background-color: #dddddd;
+    border: none;
+    padding: 0;
+    line-height: 20px;
+    margin: 4.5px 0 0 10px;
+    border-radius: 50%;
+    position: relative;
+}
+ .quantity .quantity-input .btn::after,
+ .quantity .quantity-input .btn::before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*transform: translate( -50% , -50% );*/
+    /*-webkit-transform: translate( -50% , -50% );*/
+    /*-ms-transform: translate( -50% , -50% );*/
+}
+ .quantity .quantity-input .btn:hover::before,
+ .quantity .quantity-input .btn:hover::after{
+    background-color: #ffffff !important;
+}
+ .quantity .quantity-input .btn::before{
+    content: "";
+    width: 10px;
+    height: 2px;
+    margin-left: -5px;
+    margin-top: -1px;
+    background-color: #666666;
+    display: inline-block;
+}
+ .quantity .quantity-input .btn.btn-increase{
+    background-color: #999999;
+}
+ .quantity .quantity-input .btn.btn-increase::after{
+    content: "";
+    width: 2px;
+    height: 10px;
+    margin-left: -1px;
+    margin-top: -5px;
+    background-color: #666666;
+    display: block;
+/*    transform: translate(-6px, 4px);
+    -webkit-transform: translate(-6px, 4px);
+    -ms-transform: translate(-6px, 4px);*/
+
+}

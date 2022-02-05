@@ -1,0 +1,20 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Subcategory extends Model
+{
+    use HasFactory;
+    protected $table="subcategories";
+    public function category()
+    {
+        $this->belongsTo(Category::class);
+    }
+    public function scategories()
+    {
+        return $this->hasMany(scategory::class,'subcategory_id');
+    }
+}

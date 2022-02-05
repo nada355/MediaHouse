@@ -1,0 +1,169 @@
+#comments .woocommerce-Reviews-title{
+    font-size: 15px;
+    font-weight: 600;
+}
+#comments .woocommerce-Reviews-title span{
+    font-weight: 400;
+    font-style: italic;
+}
+#comments .commentlist{
+    padding: 0;
+}
+#comments .commentlist li{
+    list-style: none;
+    display: block;
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+#comments .commentlist li .comment_container img{
+    max-width: 80px;
+    float: left;
+}
+#comments .commentlist li .comment_container .comment-text{
+    float: left;
+    width: calc( 100% - 80px);
+    width: -webkit-calc( 100% - 80px);
+    width: -moz-calc( 100% - 80px);
+    padding-left: 15px;
+}
+.width-80-percent{
+    width: 80%;
+}
+.star-rating{
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .star-rating{
+        overflow: hidden;
+    }
+}
+.star-rating::before{
+    content: "\f005\f005\f005\f005\f005";
+    font-family: FontAwesome;
+    font-size: 15px;
+    color: #e6e6e6;
+}
+.star-rating span{
+    display: inline-block;
+
+    overflow-x: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.star-rating span:before{
+    content: "\f005\f005\f005\f005\f005";
+    font-family: FontAwesome;
+    font-size: 15px;
+    color: #efce4a;
+}
+#comments .commentlist li .comment_container .meta{
+    margin-bottom: 8px;
+}
+#review_form_wrapper #review_form{
+    display: inline-block;
+    width: 100%;
+}
+#review_form_wrapper #review_form .comment-form p>label{
+    display: block;
+    font-size: 14px;
+    color: #666666;
+    font-weight: 400;
+}
+#review_form_wrapper #review_form .comment-form p.comment-form-author,
+#review_form_wrapper #review_form .comment-form p.comment-form-email{
+    width: calc(50% - 15px);
+    width: -webkit-calc(50% - 15px);
+    width: -moz-calc(50% - 15px);
+    float: left;
+}
+#review_form_wrapper #review_form .comment-form p.comment-form-author{
+    margin-right: 30px;
+}
+#review_form_wrapper #review_form .comment-form p.form-submit,
+#review_form_wrapper #review_form .comment-form p.comment-form-comment{
+    display: inline-block;
+
+    width: 100%;
+}
+#review_form_wrapper #review_form .comment-form p.form-submit input[type=submit]{
+    max-width: 115px;
+    border: 0;
+    border-radius: 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 9px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+#review_form_wrapper #review_form .comment-form p.form-submit input[type=submit]:hover{
+    background-color: #333333;
+}
+#review_form_wrapper #review_form .comment-form textarea[name=comment]{
+    display: block;
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 17px;
+}
+
+#review_form_wrapper #review_form .comment-form p input[type=text],
+#review_form_wrapper #review_form .comment-form p input[type=email]{
+    display: block;
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    outline: none;
+    height: 39px;
+    padding: 2px 10px;
+    margin-bottom: 17px;
+}
+.wrap-product-detail .comment-form-rating>span{
+    font-size: 14px;
+    line-height: 20px;
+    display: block;
+    float: left;
+    margin-right: 7px;
+    color: #666;
+}
+.wrap-product-detail .comment-form-rating ~ p{
+    margin-bottom: 0 !important;
+}
+.wrap-product-detail .comment-form-rating p.stars{
+    display: inline-block;
+    margin-bottom: 0 !important;
+}
+.comment-form-rating .stars input[type=checkbox]{
+    display: none;
+}
+.comment-form-rating .stars label{
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0 2px;
+}
+.comment-form-rating .stars label::before{
+    content: "\f005";
+    font-family: FontAwesome;
+    font-size: 15px;
+    /*color: #e6e6e6;*/
+    color: #efce4a;
+}
+.comment-form-rating .stars input[type=checkbox]:checked ~ label::before{
+    color: #e6e6e6 ;
+}
+.comment-form-rating .stars:hover label::before{
+    color: #efce4a !important;
+}
+.comment-form-rating .stars label:hover ~ label::before{
+    color: #e6e6e6 !important;
+}
+.comment-form-rating{
+    margin-bottom: 15px;
+}
