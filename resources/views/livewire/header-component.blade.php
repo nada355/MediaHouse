@@ -6,8 +6,6 @@
             </div><!-- End .header-left -->
 
             <div class="header-right">
-                sqdqs
-
                 <ul class="top-menu">
                     <li>
 
