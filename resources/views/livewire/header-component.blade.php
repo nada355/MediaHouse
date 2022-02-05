@@ -111,7 +111,7 @@
             <div class="header-left">
 
                 <a href="/" class="logo">
-                    <img  src="{{ asset('assets/images/demos/demo-4/logo.png')}}" alt="MH logo" width="160" height="20">
+                    <img  src="{{ asset('assets/images/demos/demo-4/logofooter.png')}}" alt="MH logo" width="200" height="20">
                 </a>
             </div><!-- End .header-left -->
 
